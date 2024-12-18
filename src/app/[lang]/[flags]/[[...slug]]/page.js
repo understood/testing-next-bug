@@ -1,3 +1,7 @@
+export async function generateStaticParams() {
+  return []
+}
+
 export default async function Page(props) {
   const params = await props.params
 
